@@ -15,7 +15,11 @@ public class Case1_whole_numbers {
         driver.get("http://google.com");
         driver.findElement(By.cssSelector("input.gLFyf.gsfi")).sendKeys("Калькулятор");
         driver.findElement(By.cssSelector("input.gNO89b")).sendKeys(Keys.ENTER);
-
+        driver.findElement(By.cssSelector("div.XRsWPe.MEdqYd")).sendKeys(Keys.ENTER);
+        driver.findElement(By.cssSelector("div.XRsWPe.AOvabd")).sendKeys(Keys.ENTER);
+        driver.findElement(By.cssSelector("div.XRsWPe.MEdqYd")).sendKeys(Keys.ENTER);
+        driver.findElement(By.cssSelector("div.XRsWPe.AOvabd")).sendKeys(Keys.ENTER);
+        driver.findElement(By.cssSelector("div.XRsWPe.AOvabd")).sendKeys(Keys.ENTER);
     driver.quit();
     }
 }
