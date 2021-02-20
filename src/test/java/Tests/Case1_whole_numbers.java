@@ -1,4 +1,4 @@
-package tests;
+package Tests;
 
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -13,8 +13,8 @@ public class Case1_whole_numbers {
        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("http://google.com");
-        driver.findElement(By.cssSelector("input.gLFyf.gsfi")).sendKeys("Калькулятор");
-        driver.findElement(By.cssSelector("wFncld.z1asCe.MZy1Rb"));
+        driver.findElement(By.cssSelector("input.gLFyf.gsfi")).sendKeys("Калькулятор", "gNO89b");
+
     driver.quit();
     }
 }
